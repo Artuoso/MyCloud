@@ -1,4 +1,4 @@
-package com.snow;
+package com.snow.entity;
 
 /**
 * User Demo
@@ -9,6 +9,11 @@ public class UserDemo {
     private Long id;
 
     private String name;
+
+    public UserDemo(Long id, String name) {
+        this.id = id;
+        this.name = name;
+    }
 
     public Long getId() {
         return id;
