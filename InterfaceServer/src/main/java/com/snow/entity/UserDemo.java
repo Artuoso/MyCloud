@@ -10,6 +10,8 @@ public class UserDemo {
 
     private String name;
 
+    public UserDemo() {}
+
     public UserDemo(Long id, String name) {
         this.id = id;
         this.name = name;

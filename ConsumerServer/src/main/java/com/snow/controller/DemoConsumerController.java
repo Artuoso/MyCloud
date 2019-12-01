@@ -13,9 +13,9 @@ import org.springframework.web.client.RestTemplate;
 * @author Created by zc on 2019/12/1
 */
 @RestController
-@RequestMapping("/consumer.user")
+@RequestMapping("/consumer/user")
 public class DemoConsumerController {
-    private static final String URL_PREFIX = "http://PROVIDER-SERVICE";
+    private static final String URL_PREFIX = "http://provider-service";
 
     @Autowired
     private RestTemplate restTemplate;
