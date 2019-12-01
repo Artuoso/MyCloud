@@ -1,0 +1,13 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: consumer-service
+eureka:
+  register-with-eureka: false #
+  fetch-registry: false #
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8081/eureka/
+  instance:
+    prefer-ip-address: true
